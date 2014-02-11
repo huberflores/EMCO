@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 
 
 public class NetworkManagerClient {
+	
     final static Logger logger = Logger.getLogger(NetworkManagerClient.class.getName());
     int portnum;
     Socket mysocket = null;
